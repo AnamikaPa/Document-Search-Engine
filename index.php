@@ -76,12 +76,8 @@
 				<div id ="right">
 					
 					<?php
-						if($_SESSION["username"] !="username" && $_SESSION["username"]!="Admin"){?>
+						if(isset($_SESSION["email"]) && $_SESSION["username"] !="username" && $_SESSION["username"]!="Admin"){?>
 							<a class="abc" href=<?php echo "main.php?text1=".$_SESSION['email']; ?> title="Home"><?PHP echo "Welcome ".$_SESSION["username"]."!!";?></a>
-							<a class="abc" href="logout.php">Log Out</a>
-						<?php  }
-						else if($_SESSION["username"] !="username" && $_SESSION["username"]=="Admin"){?>
-							<a class="abc" href="admin.php" title="Home"><?PHP echo "Welcome ".$_SESSION["username"]."!!";?></a>
 							<a class="abc" href="logout.php">Log Out</a>
 						<?php  }
 						else{ ?>
