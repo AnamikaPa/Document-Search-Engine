@@ -1,0 +1,128 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#e0e0d2;
+}
+#pink{
+	height:300px;
+	background-position: 0px -600px;
+	background-image:url("../images/girl.jpg");
+}
+#header{
+	height:50px;
+	width:100%;
+	background-color:#3d3d29;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	z-index:10;
+}
+.logo{
+	position:absolute;
+	margin:5px;
+	height:40px;
+	width:92px;
+}
+#left{
+	margin:5px;
+	height:40px;
+	float:left;
+}
+#right{
+	margin:5px;
+	float:right;
+}
+.abc{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+	padding:5px;
+	height:30px;
+	width:70px;
+}
+.abc:hover{
+	background-color:#0f0f0a;
+}
+#get_started{
+	margin-left:35%;
+	position:absolute;
+	margin-top:20px;
+	width:29%;
+	height:150px;
+	font-size:30px;
+	color:white;
+}
+#get_started input{
+    border-style: solid;
+	border-width:1px;
+	border-radius:5px;
+	border-color:#ffccff;
+	text-decoration:none;
+	padding:5px;
+	background-color:white;
+	font-size:20px;
+	color:#ff0066;
+	text-align:center;
+	margin-left:38%;
+}
+#get_started input:hover{
+	border-color:#ff00ff;
+}
+#no{
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	padding:10px;
+	font-size:25px;
+	background-color:white;
+	margin:40px auto;
+	width:20%;
+	text-align:center;
+}
+#blog{
+	position:relative;
+	width:65%;
+	min-height: 200px;
+	margin: 30px auto;
+	padding:50px;
+	background-color:white;
+}
+#abc{
+	margin:auto;
+	text-align:center;
+}
+#image{
+	margin:auto;
+	text-align:center;
+	position:relative;
+	height:300px;
+}
+#cat{
+	font-size:20px;
+	text-align:center;
+	color:white;
+	position:relative;
+	width:200px;
+	min-height:30px;
+	padding:6px;
+	background-color:#333333;
+}
+#desc h2{
+	color:#b35900;
+}
+#desc{
+	position:relative;
+	margin-top:20px;
+	min-height:200px;
+	color:#2d2d1f;
+}
+#button{
+	padding:10px;
+	width:50px;
+	display:inline;
+}
+#button input{
+	background-color:#3c3c2a;
+	color:white;
+	border-radius:5px;
+	height:40px;
+}

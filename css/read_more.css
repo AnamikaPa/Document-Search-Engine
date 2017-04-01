@@ -1,0 +1,101 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#e0e0d2;
+}
+#pink{
+	background-color:red;
+	height:300px;
+	background-position: 0px -600px;
+	background-image:url("../images/girl.jpg");
+}
+#header{
+	height:50px;
+	width:100%;
+	background-color:#3d3d29;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	z-index:10;
+}
+.logo{
+	position:absolute;
+	margin:5px;
+	height:40px;
+	width:92px;
+}
+#left{
+	margin:5px;
+	height:40px;
+	float:left;
+}
+#right{
+	margin:5px;
+	float:right;
+}
+.abc{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+	padding:5px;
+	height:30px;
+	width:70px;
+}
+.abc:hover{
+	background-color:#0f0f0a;
+}
+#blog{
+	position:relative;
+	width:65%;
+	min-height:570px;
+	margin: 30px auto;
+	padding:50px;
+	background-color:white;
+}
+#image{
+	margin:auto;
+	text-align:center;
+	position:relative;
+	height:300px;
+}
+#cat{
+	font-size:20px;
+	text-align:center;
+	color:white;
+	position:relative;
+	width:200px;
+	min-height:30px;
+	padding:6px;
+	background-color:#333333;
+}
+#desc h2{
+	color:#b35900;
+}
+#desc{
+	position:relative;
+	margin-top:20px;
+	min-height:200px;
+	color:#2d2d1f;
+}
+#button{
+	padding:10px;
+	display:inline;
+}
+#button input{
+	padding:0px 10px;
+	background-color:#3c3c2a;
+	color:white;
+	border-radius:5px;
+	height:40px;
+}
+#text{
+	padding:10px;
+	display:inline;
+}
+#text input{
+	padding:0px 10px;
+	background-color:#3c3c2a;
+	color:white;
+	border-radius:5px;
+	height:40px;
+}
